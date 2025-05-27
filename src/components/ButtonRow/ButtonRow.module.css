@@ -1,2 +1,23 @@
 .buttonRow {
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 10px;
 }
+
+/* Target the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px; /* Adjust thickness */
+  height: 10px;
+}
+
+/* Target the draggable thumb */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2); /* Light gray thumb */
+  border-radius: 10px;
+}
+
+/* Optional: scrollbar background track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
